@@ -1,2 +1,12 @@
-fastapi==0.115.0
-uvicorn[standard]==0.30.0
+fastapi==0.123.10
+uvicorn==0.38.0
+
+# Database ORM + MySQL driver
+sqlalchemy==2.0.44
+pymysql==1.1.2
+
+# Environment variable loader
+python-dotenv==1.2.1
+
+# Data validation (FastAPI dependency)
+pydantic==2.9.2
